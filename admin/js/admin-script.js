@@ -64,4 +64,87 @@ jQuery(document).ready(function($) {
         // Submit the form
         saveSettingsButton.trigger('click');
     });
+
+    // Handle the click event of the "Test" button
+$('[name="test_website"]').on('click', function(e) {
+    e.preventDefault();
+    // Get the website data from the form
+    var websiteData = {
+        image_css: $('#image_css').val(),
+        description_css: $('#description_css').val(),
+        price_css: $('#price_css').val(),
+        sku_css: $('#sku_css').val(),
+        short_desc_css: $('#short_desc_css').val(),
+        title_css: $('#title_css').val(),
+        example_product_url: $('#example_product_url').val(),
+    };
+
+    // Send an AJAX request to test the website
+    $.ajax({
+        url: ajaxurl,
+        method: 'POST',
+        data: {
+            action: 'test_website',
+            website_data: websiteData
+        },
+        beforeSend: function() {
+            console.log('Sending AJAX request...');
+        },
+        success: function(response) {
+            // Log the response for debugging
+            console.log('AJAX response:', response);
+            console.log('Type of AJAX response:', typeof response);
+            console.log('Response properties:', response.data.title, response.data.description, response.data.short_description, response.data.price, response.data.images);
+
+            // Create a new modal element
+            var modal = $('<div class="modal" tabindex="-1" role="dialog"></div>');
+
+            // Load modal content from template file
+            modal.load(bwgps.pluginsUrl + '/modal-content.php', function() {
+                // Append the modal to the body
+                $('body').append(modal);
+
+                var imagesHtml = '';
+                for (var i = 0; i < response.data.images.length; i++) {
+                    imagesHtml += '<img src="' + response.data.images[i] + '" style="width:100px;height:100px;">';
+                }
+                modal.find('.modal-body').html(
+                    "<p><strong>Title:</strong> " + response.data.title + "</p>" +
+                    "<p><strong>Description:</strong> " + response.data.description + "</p>" +
+                    "<p><strong>Short Description:</strong> " + response.data.short_description + "</p>" +
+                    "<p><strong>Price:</strong> " + response.data.price + "</p>" +
+                    "<p><strong>SKU:</strong> " + response.data.sku + "</p>" +
+                    imagesHtml
+                );
+
+                // Show the modal popup
+                modal.modal('show');
+
+                // Clean up the modal after it's closed
+                modal.on('hidden.bs.modal', function() {
+                    modal.remove();
+                });
+
+                console.log('Modal loaded and displayed successfully.');
+            });
+        },
+
+        error: function(xhr, status, error) {
+            // Log the AJAX error for debugging
+            console.log('AJAX error:', error);
+
+            // Show an error message
+            var errorMessage = '<div class="alert alert-danger">An error occurred: ' + error + '</div>';
+            $('body').append(errorMessage);
+        },
+        complete: function() {
+            console.log('AJAX request completed.');
+        }
+    });
+
+});
+
+
+
+
 });

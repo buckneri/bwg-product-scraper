@@ -1,0 +1,57 @@
+[31-May-2023 05:28:06 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/dh_4ev8y2/bitserved.com/wp-content/plugins/wp-batch-processing-master/includes/class-bp-singleton.php on line 51
+[31-May-2023 05:28:06 UTC] PHP Warning:  The magic method WP_BP_Singleton::__wakeup() must have public visibility in /home/dh_4ev8y2/bitserved.com/wp-content/plugins/wp-batch-processing-master/includes/class-bp-singleton.php on line 51
+[31-May-2023 05:28:06 UTC] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/dh_4ev8y2/bitserved.com/wp-content/plugins/wp-batch-processing-master/includes/class-bp-singleton.php on line 54
+[31-May-2023 05:28:08 UTC] Scraped Title: 
+[31-May-2023 05:28:08 UTC] Scraped Price: 
+[31-May-2023 05:28:08 UTC] Scraped SKU: 
+[31-May-2023 05:28:08 UTC] Scraped Description: 
+[31-May-2023 05:28:08 UTC] Scraped Short Description: 
+[31-May-2023 05:28:08 UTC] Scraped Images: 
+[31-May-2023 05:28:08 UTC] Scraped Title: 
+[31-May-2023 05:28:08 UTC] Scraped Price: 
+[31-May-2023 05:28:08 UTC] Scraped SKU: 
+[31-May-2023 05:28:08 UTC] Scraped Description: 
+[31-May-2023 05:28:08 UTC] Scraped Short Description: 
+[31-May-2023 05:28:08 UTC] Scraped Images: 
+[31-May-2023 05:28:08 UTC] Scraped Title: 
+[31-May-2023 05:28:08 UTC] Scraped Price: 
+[31-May-2023 05:28:08 UTC] Scraped SKU: 
+[31-May-2023 05:28:08 UTC] Scraped Description: 
+[31-May-2023 05:28:08 UTC] Scraped Short Description: 
+[31-May-2023 05:28:08 UTC] Scraped Images: 
+[31-May-2023 05:28:09 UTC] Scraped Title: 
+[31-May-2023 05:28:09 UTC] Scraped Price: 
+[31-May-2023 05:28:09 UTC] Scraped SKU: 
+[31-May-2023 05:28:09 UTC] Scraped Description: 
+[31-May-2023 05:28:09 UTC] Scraped Short Description: 
+[31-May-2023 05:28:09 UTC] Scraped Images: 
+[31-May-2023 05:28:09 UTC] Scraped Title: 
+[31-May-2023 05:28:09 UTC] Scraped Price: 
+[31-May-2023 05:28:09 UTC] Scraped SKU: 
+[31-May-2023 05:28:09 UTC] Scraped Description: 
+[31-May-2023 05:28:09 UTC] Scraped Short Description: 
+[31-May-2023 05:28:09 UTC] Scraped Images: 
+[31-May-2023 05:28:09 UTC] Scraped Title: 
+[31-May-2023 05:28:09 UTC] Scraped Price: 
+[31-May-2023 05:28:09 UTC] Scraped SKU: 
+[31-May-2023 05:28:09 UTC] Scraped Description: 
+[31-May-2023 05:28:09 UTC] Scraped Short Description: 
+[31-May-2023 05:28:09 UTC] Scraped Images: 
+[31-May-2023 05:28:10 UTC] Scraped Title: 
+[31-May-2023 05:28:10 UTC] Scraped Price: 
+[31-May-2023 05:28:10 UTC] Scraped SKU: 
+[31-May-2023 05:28:10 UTC] Scraped Description: 
+[31-May-2023 05:28:10 UTC] Scraped Short Description: 
+[31-May-2023 05:28:10 UTC] Scraped Images: 
+[31-May-2023 05:28:10 UTC] Scraped Title: 
+[31-May-2023 05:28:10 UTC] Scraped Price: 
+[31-May-2023 05:28:10 UTC] Scraped SKU: 
+[31-May-2023 05:28:10 UTC] Scraped Description: 
+[31-May-2023 05:28:10 UTC] Scraped Short Description: 
+[31-May-2023 05:28:10 UTC] Scraped Images: 
+[31-May-2023 05:28:10 UTC] Scraped Title: 
+[31-May-2023 05:28:10 UTC] Scraped Price: 
+[31-May-2023 05:28:10 UTC] Scraped SKU: 
+[31-May-2023 05:28:10 UTC] Scraped Description: 
+[31-May-2023 05:28:10 UTC] Scraped Short Description: 
+[31-May-2023 05:28:10 UTC] Scraped Images: 

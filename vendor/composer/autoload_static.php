@@ -58,8 +58,8 @@ class ComposerStaticInit9a8023d610a4b282117a395542347f48
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -85,6 +85,14 @@ class ComposerStaticInit9a8023d610a4b282117a395542347f48
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'WP_BP_Helper' => __DIR__ . '/..' . '/gdarko/wp-batch-processing/includes/class-bp-helper.php',
+        'WP_BP_List_Table' => __DIR__ . '/..' . '/gdarko/wp-batch-processing/includes/class-batch-list-table.php',
+        'WP_BP_Singleton' => __DIR__ . '/..' . '/gdarko/wp-batch-processing/includes/class-bp-singleton.php',
+        'WP_Batch' => __DIR__ . '/..' . '/gdarko/wp-batch-processing/includes/class-batch.php',
+        'WP_Batch_Item' => __DIR__ . '/..' . '/gdarko/wp-batch-processing/includes/class-batch-item.php',
+        'WP_Batch_Processing_Ajax_Handler' => __DIR__ . '/..' . '/gdarko/wp-batch-processing/includes/class-batch-ajax-handler.php',
+        'WP_Batch_Processor' => __DIR__ . '/..' . '/gdarko/wp-batch-processing/includes/class-batch-processor.php',
+        'WP_Batch_Processor_Admin' => __DIR__ . '/..' . '/gdarko/wp-batch-processing/includes/class-batch-processor-admin.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

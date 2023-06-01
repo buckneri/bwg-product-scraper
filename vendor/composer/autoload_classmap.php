@@ -7,4 +7,12 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'WP_BP_Helper' => $vendorDir . '/gdarko/wp-batch-processing/includes/class-bp-helper.php',
+    'WP_BP_List_Table' => $vendorDir . '/gdarko/wp-batch-processing/includes/class-batch-list-table.php',
+    'WP_BP_Singleton' => $vendorDir . '/gdarko/wp-batch-processing/includes/class-bp-singleton.php',
+    'WP_Batch' => $vendorDir . '/gdarko/wp-batch-processing/includes/class-batch.php',
+    'WP_Batch_Item' => $vendorDir . '/gdarko/wp-batch-processing/includes/class-batch-item.php',
+    'WP_Batch_Processing_Ajax_Handler' => $vendorDir . '/gdarko/wp-batch-processing/includes/class-batch-ajax-handler.php',
+    'WP_Batch_Processor' => $vendorDir . '/gdarko/wp-batch-processing/includes/class-batch-processor.php',
+    'WP_Batch_Processor_Admin' => $vendorDir . '/gdarko/wp-batch-processing/includes/class-batch-processor-admin.php',
 );
